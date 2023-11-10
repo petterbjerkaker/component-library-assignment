@@ -6,7 +6,6 @@ body{
 
 .button-default, .button-hover, .button-active{
 	display: flex;
-	font-family:"inter";
 	width:100px;
 	height:40px;
 	justify-content: center;
