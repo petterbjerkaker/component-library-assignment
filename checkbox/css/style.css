@@ -1,0 +1,53 @@
+body{
+	font-family: "inter";
+	font-size:16px;
+}
+
+
+
+.custom-container {
+	display:block;
+	position:relative;
+	padding-left:35px;
+	margin-bottom: 12px;
+	cursor:pointer;
+	font-size:16px;
+}
+
+.custom-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width:0;
+}
+
+.custom-checkmark {
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color:white;
+	border-radius:8px;
+}
+
+.custom-container:hover input ~ .custom-checkmark {
+	background-color:lightgrey;
+}
+
+.custom-container input:checked ~ .custom-checkmark {
+	background-color: coral;
+
+}
+
+.custom-checkmark:after {
+	content:"";
+	position:absolute;
+	display: none;
+}
+
+.custom-container input:checked ~ .custom-checkmark:after {
+	display: block;
+}
+
