@@ -8,6 +8,7 @@ body {
 	top:50%;
 	right:0%;
 	font-size:large;
+	background-color: lightgrey;
 }
 
 .close-button:hover{
