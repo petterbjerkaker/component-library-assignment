@@ -1,0 +1,15 @@
+body {
+	background: white;
+	font-family: "inter";
+	margin-left:50px;
+}
+
+.close-button {
+	top:50%;
+	right:0%;
+	font-size:large;
+}
+
+.close-button:hover{
+	background:#bbb;
+}
