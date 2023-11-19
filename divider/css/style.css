@@ -1,0 +1,10 @@
+body{
+	background:snow;
+	margin-left:50px;
+	font-family:"inter";
+}
+
+
+.dashed{
+	border-top:3px solid black;
+}
